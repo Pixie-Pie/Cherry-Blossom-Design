@@ -1,9 +1,99 @@
-h1 {
-    
+.navbar {
+    background-color: #473C38;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #473C38;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.navbar-logo {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+
+.navbar-logo:hover,
+.navbar-logo:focus {
+    text-decoration: underline;
+}
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    background-color: white;
+}
+
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    background-color: white;
+
+}
+
+.welcome-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.welcome-text {
+    max-width: 50%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #514644;
     text-align: left;
-    color: #473C38;
-    border-bottom: 1px solid #473C38;
-    font-size: small;
-    font-family: 'Raleway', sans-serif;
-    padding-bottom: 2px;
+
+    
+}
+.welcome-text p {
+    margin: 0;
+    
+
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-content {
+    max-width: 50%;
+    font-family: Arial, sans-serif;
+    color: #222122;
+}
+
+.section-content h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.section-content p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.section-images {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-images img {
+    max-width: 100%;
+    margin-bottom: 20px;
 }
