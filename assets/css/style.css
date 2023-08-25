@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
     background-color: #473C38;
     color: white;
     display: flex;
@@ -26,6 +26,7 @@
     text-decoration: underline;
 }
 
+
 .welcome-section {
     display: flex;
     align-items: center;
@@ -34,66 +35,86 @@
     background-color: white;
 }
 
-
-.welcome-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0;
-    background-color: white;
-
-}
 
 .welcome-image {
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
 }
 
 .welcome-text {
-    max-width: 50%;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #514644;
-    text-align: left;
-
-    
+    margin-left: 20px;
 }
+
+
 .welcome-text p {
     margin: 0;
-    
-
-
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #514644;
+    text-align: left;
+}
 .section-two {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    background-color: #DADDDE;
 }
 
 .section-content {
-    max-width: 50%;
+    max-width: 40%;
     font-family: Arial, sans-serif;
-    color: #222122;
+    color: black;
 }
 
 .section-content h2 {
-    font-size: 36px;
+    font-size: 60px;
     margin: 0;
 }
-
 .section-content p {
-    font-size: 16px;
-    margin: 0;
+    font-size: 30px;
 }
-
 .section-images {
-    max-width: 45%;
+    max-width: 30%;
     display: flex;
     flex-direction: column;
 }
 
-.section-images img {
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 50px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.about-me .section-content {
+    max-width: 55%;
+    /* Adjusted the max-width for better readability */
+    font-family: Arial, sans-serif;
+    color: #514644;
+}
+
+.about-me .section-content h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.about-me .section-content p {
+    font-size: 30px;
+    margin: 0 0 18px 0;
+}
+
+.about-me .section-image {
+    max-width: 35%;
+    /* Adjusted the max-width for better image alignment */
+}
+
+.about-me .section-image img {
     max-width: 100%;
-    margin-bottom: 20px;
+    height: auto;
 }
