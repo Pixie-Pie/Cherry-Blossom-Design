@@ -1,85 +1,12 @@
-/* Navbar */
-.navbar {
-    background-color: #473C38;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 2px solid #473C38;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
 }
 
-.navbar-logo {
+a {
     text-decoration: none;
-    color: white;
-    font-size: 28px;
-}
-
-.navbar-logo:hover,
-.navbar-logo:focus {
-    text-decoration: underline;
-}
-
-/* Welcome Section */
-.welcome-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0;
-    background-color: white;
-}
-
-.welcome-image {
-    max-width: 30%;
-    height: auto;
-}
-
-.welcome-text {
-    margin-left: 20px;
-}
-
-.welcome-text p {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 100px;
-    font-weight: bold;
-    color: #514644;
-    text-align: left;
-}
-
-/* Section Two */
-.section-two {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background-color: #DADDDE;
-}
-
-.section-content {
-    max-width: 40%;
-    font-family: Arial, sans-serif;
-    color: black;
-}
-
-.section-content h2 {
-    font-size: 60px;
-    margin: 0;
-}
-
-.section-content p {
-    font-size: 30px;
-}
-
-.section-images {
-    max-width: 30%;
-    display: flex;
-    flex-direction: column;
+    color: inherit;
 }
 
 /* Navbar */
@@ -99,9 +26,9 @@
 }
 
 .navbar-logo {
+    font-size: 28px;
     text-decoration: none;
     color: white;
-    font-size: 28px;
 }
 
 .navbar-logo:hover,
@@ -109,11 +36,10 @@
     text-decoration: underline;
 }
 
-/* Welcome Section */
 .welcome-section {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin: 40px 0;
     background-color: white;
 }
@@ -181,7 +107,6 @@
     max-width: 55%;
     font-family: Arial, sans-serif;
     color: black;
-    /* Set font color to black for better readability*/
 }
 
 .about-me .section-content h2 {
@@ -189,7 +114,6 @@
     margin: 0;
     color: black;
     margin-bottom: 20px;
-
 }
 
 .about-me .section-content p {
@@ -213,37 +137,203 @@
     position: absolute;
     margin-left: 350px;
     margin-top: -20px;
-    padding: 30px;}
+    padding: 30px;
+}
 
+/* Style for the "View my work" section */
 .my-work {
-    padding: 50px;
-    background-color: #DBD5D2;
+    background-color: #E6E5E1;
+    font-family: Arial, sans-serif;
     color: black;
+    padding: 50px 0;
     text-align: center;
 }
 
 .my-work h2 {
     font-size: 36px;
-    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .work-images {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.work-image {
-    flex-basis: 30%;
-    margin-bottom: 30px;
+.my-work-image {
+    text-align: center;
+    flex-basis: calc(33.33% - 40px)
+    margin: 20px;
 }
 
-.work-image img {
+.my-work-image img {
     max-width: 100%;
     height: auto;
 }
 
 .work-description {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+.work-with-me {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-heading {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.work-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
+}
+
+.work-image {
+    width: 600px;
+    margin-right: 20px;
+}
+
+.work-image img {
+    width: 100%;
+    max-height: 800px;
+}
+
+.work-contact {
+    font-size: 25px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.work-contact b {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .welcome-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .welcome-image {
+        max-width: 100%;
+        height: auto;
+        order: 2;
+    }
+
+    .welcome-text {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .welcome-text p {
+        font-size: 40px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+
+
+
+    .section-two {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .section-content {
+        max-width: 100%;
+        font-family: Arial, sans-serif;
+        color: black;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .section-content h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .section-content p {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    .section-images {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .section-images img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .about-me {
+        flex-direction: column;
+        background-color: #FFFFFF;
+        padding: 30px 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-me .section-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-me .section-content h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-me .section-content p {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .about-me .section-image {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about-me .section-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .signature {
+        font-family: 'Allura', cursive;
+        font-size: 30px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 200px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
 }
