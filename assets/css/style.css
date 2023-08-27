@@ -1,9 +1,9 @@
 .parent {
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 a {
@@ -12,6 +12,7 @@ a {
 }
 
 /* Navbar */
+
 .navbar {
     background-color: #473C38;
     color: white;
@@ -65,6 +66,7 @@ a {
 }
 
 /* Section Two */
+
 .section-two {
     display: flex;
     justify-content: space-between;
@@ -95,6 +97,7 @@ a {
 }
 
 /* About Me Section */
+
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -143,9 +146,10 @@ a {
 }
 
 /* My Work Section */
+
 .my-work {
     background-color: #E6E5E1;
-    font-family:Garamond serif;
+    font-family: Garamond serif;
     font-weight: bolder;
     color: black;
     padding: 50px 0;
@@ -156,7 +160,6 @@ a {
     font-size: 36px;
     margin-bottom: 20px;
     font-weight: bold;
-
 }
 
 .work-images {
@@ -176,7 +179,6 @@ a {
     height: auto;
     width: 80%;
     margin: 0 auto;
-  
 }
 
 .work-description {
@@ -185,8 +187,8 @@ a {
     margin-top: 10px;
 }
 
-
 /* Work with Me Section */
+
 .work-with-me {
     background-color: #FFFFFF;
     font-family: Arial, sans-serif;
@@ -214,6 +216,7 @@ a {
     margin-top: -20px;
     position: relative;
 }
+
 .section-heading::after {
     content: "";
     position: absolute;
@@ -223,6 +226,7 @@ a {
     height: 2px;
     background-color: black;
 }
+
 .work-container {
     display: flex;
     align-items: flex-start;
@@ -255,6 +259,7 @@ a {
 }
 
 /* Footer */
+
 footer {
     background-color: #DADDDE;
     font-family: Arial;
@@ -275,14 +280,18 @@ footer span {
 }
 
 footer a {
-    margin-right: 0; }
+    margin-right: 0;
+}
 
 @media (max-width: 768px) {
 
+    /* Welcome Section */
     .welcome-section {
         flex-direction: column;
         align-items: center;
         padding: 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .welcome-image {
@@ -302,8 +311,7 @@ footer a {
         margin-bottom: 5px;
     }
 
-
-
+    /* Section Two */
     .section-two {
         flex-direction: column;
         align-items: center;
@@ -346,6 +354,7 @@ footer a {
         margin-bottom: 20px;
     }
 
+    /* About Me */
     .about-me {
         flex-direction: column;
         background-color: #FFFFFF;
@@ -383,6 +392,7 @@ footer a {
         height: auto;
     }
 
+    /* Signature */
     .signature {
         font-family: 'Allura', cursive;
         font-size: 30px;
@@ -392,31 +402,57 @@ footer a {
         margin-bottom: 10px;
         padding: 10px;
     }
-        .work-content {
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    
-        .work-image {
-        display: block;
-            margin-left: 110px;
-            margin-right: 100px;
-            width:200pt;
-        }
-        
-        
-        }
-    
-        .work-contact {
-            text-align: left;
-            max-width: 50%;
-            margin-left: 0;
-            margin-right: 0;
-            margin-top: 5px;
-        }
-            .work-contact {
-            text-align: left;
-                max-width: 60%;
-                margin-top: 10px 
-            }
+/* Work with Me Section */
+.work-with-me {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.work-content {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-heading {
+    padding: 10px 0;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-top: -20px;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.work-image {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.work-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.work-contact {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
