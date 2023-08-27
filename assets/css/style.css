@@ -1,5 +1,4 @@
 /* Reset styles */
-
 body,
 h1,
 h2,
@@ -11,21 +10,15 @@ li {
     padding: 0;
 }
 
+/* Parent Grid */
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
+    gap: 0;
 }
 
 /* Navbar */
-
 .navbar {
     background-color: #473C38;
     color: white;
@@ -47,21 +40,7 @@ a {
     color: white;
 }
 
-.navbar-logo:hover,
-.navbar-logo:focus {
-    text-decoration: underline;
-}
-
-.welcome-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-    background-color: white;
-}
-
 /* Welcome Section */
-
 .welcome-section {
     display: flex;
     justify-content: center;
@@ -89,7 +68,6 @@ a {
 }
 
 /* Section Two */
-
 .section-two {
     display: flex;
     justify-content: space-between;
@@ -120,7 +98,6 @@ a {
 }
 
 /* About Me Section */
-
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -169,7 +146,6 @@ a {
 }
 
 /* My Work Section */
-
 .my-work {
     background-color: #E6E5E1;
     font-family: Garamond serif;
@@ -211,7 +187,6 @@ a {
 }
 
 /* Work with Me Section */
-
 .work-with-me {
     background-color: #FFFFFF;
     font-family: Arial, sans-serif;
@@ -334,6 +309,7 @@ footer .footer-right a.email-link {
     text-decoration: none;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
 
     /* Navbar */
@@ -343,142 +319,7 @@ footer .footer-right a.email-link {
 
     .navbar-logo {
         margin-top: 10px;
-        margin-left: 10px
+        margin-left: 10px;
     }
 
-    /* Welcome Section */
-    .welcome-section {
-        margin: 20px 0;
-        padding: 30px 0;
-    }
-
-    .welcome-image {
-        max-width: 60%;
-        height: auto;
-    }
-
-    .welcome-text p {
-        font-size: 30px;
-    }
-
-    /* Section Two */
-    .section-two {
-        flex-direction: column;
-        align-items: center;
-        padding: 30px;
-    }
-
-    .section-content {
-        max-width: 100%;
-        padding: 0 20px;
-    }
-
-    .section-content h2 {
-        font-size: 40px;
-    }
-
-    .section-content p {
-        font-size: 20px;
-    }
-
-    .section-images {
-        max-width: 80%;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .section-images img {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    /* About Me */
-    .about-me {
-        flex-direction: column;
-        background-color: #FFFFFF;
-        padding: 30px 0;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .about-me .section-content {
-        max-width: 100%;
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .about-me .section-content h2 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-
-    .about-me .section-content p {
-        font-size: 20px;
-        margin: 0 0 20px 0;
-        text-align: center;
-        line-height: 1.5;
-    }
-
-    .about-me .section-image {
-        max-width: 100%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .about-me .section-image img {
-        max-width: 100%;
-        height: auto;
-    }
-
-        /* Signature */
-          .signature {
-              font-family: 'Allura', cursive;
-              font-size: 30px;
-              position: relative;
-              margin-top: 5px;
-              margin-left: 200px;
-              margin-bottom: 5px;
-              padding: 5px 0;
-          }
-    
-        /* Work with Me Section */
-Sure,
-based on your description,
-I understand that you want the content in a specific section to be styled in a certain way. Here's how you can achieve that using CSS:
-
-css Copy code
-
-/* Work with Me Section */
-.work-with-me {
-    text-align: center;
-}
-
-.work-with-me h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #000000;
-    padding-bottom: 5px;
-    display: inline-block;
-}
-
-.work-image img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
-.work-address {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.work-address p {
-    font-size: 18px;
-    text-align: left;
-    margin: 0 auto;
-    max-width: 300px;
-    line-height: 1.5;
-}
+    /*
