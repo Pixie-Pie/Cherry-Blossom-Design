@@ -140,9 +140,6 @@ li {
     font-family: 'Allura', cursive;
     font-size: 40px;
     position: absolute;
-    margin-left: 300px;
-    margin-top: -20px;
-    padding: 30px;
 }
 
 /* My Work Section */
@@ -195,16 +192,6 @@ li {
     text-align: left;
 }
 
-.work-content {
-    max-width: 55%;
-    font-family: Arial, sans-serif;
-    color: black;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 .section-heading {
     padding: 10px 0;
     margin-left: 30px;
@@ -225,21 +212,36 @@ li {
     background-color: black;
 }
 
-.work-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 100%;
-    margin: auto;
-    padding: 20px;
+
+
+.work-heading {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color: black;
+    border-bottom: 2px solid black;
 }
 
-.work-image img {
-    width: 30em;
-    max-height: 30em;
-    padding-right: 50px;
-    image-rendering: auto;
-    padding-left: 10em;
+.work-content {
+    display: flex;
+    font-family: Arial, sans-serif;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    margin-top: 20px;
+}
+
+
+.contact-image img {
+width: 20%;
+}
+
+.contact-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
 }
 
 .work-contact {
@@ -322,4 +324,14 @@ footer .footer-right a.email-link {
         margin-left: 10px;
     }
 
-    /*
+    .work-content {
+        display: flex;
+        font-family: Arial, sans-serif;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        margin-top: 20px;
+    }
+    
+
+}
