@@ -282,164 +282,56 @@ a {
 }
 
 /* Footer */
-
 footer {
     background-color: #DADDDE;
     font-family: Arial;
     color: black;
     padding: 10px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-}
-
-footer i {
-    margin-right: 20px;
-    color: #000000;
-}
-
-footer span {
-    margin-right: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 footer a {
-    margin-right: 0;
+    color: #000000;
+    text-decoration: none;
+    margin: 5px;
 }
 
-@media (max-width: 600px) and (orientation: portrait) {
+footer .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-    /* Navbar */
-    .navbar {
-        align-items: flex-start;
-    }
+footer .footer-icons a {
+    margin: 5px;
+}
 
-    .navbar-logo {
-        margin-top: 10px;
-        margin-left: 10px;
-    }
+footer .footer-left,
+footer .footer-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-    /* Welcome Section */
-    .welcome-section {
-        margin: 20px 0;
-        padding: 30px 0;
-    }
+footer .footer-left .phone-number {
+    font-weight: bold;
+    margin-right: 5px;
+}
 
-    .welcome-image {
-        max-width: 80%;
-        height: auto;
-    }
+footer .footer-right .fa-whatsapp {
+    margin-right: 10px;
+}
 
-    .welcome-text p {
-        font-size: 24px;
-    }
-
-    /* Section Two */
-    .section-two {
-        flex-direction: column;
-        align-items: center;
-        padding: 30px;
-    }
-
-    .section-content {
-        max-width: 80%;
-        padding: 0 20px;
-    }
-
-    .section-content h2 {
-        font-size: 32px;
-    }
-
-    .section-content p {
-        font-size: 18px;
-    }
-
-    .section-images {
-        max-width: 80%;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .section-images img {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    /* About Me */
-    .about-me {
-        flex-direction: column;
-        background-color: #FFFFFF;
-        padding: 30px 0;
-        max-width: 80%;
-        margin: 0 auto;
-    }
-
-    .about-me .section-content {
-        max-width: 80%;
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .about-me .section-content h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-
-    .about-me .section-content p {
-        font-size: 18px;
-        margin: 0 0 20px 0;
-        text-align: center;
-        line-height: 1.5;
-    }
-
-    .about-me .section-image {
-        max-width: 80%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .about-me .section-image img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Signature */
-    .signature {
-        font-family: 'Allura', cursive;
-        font-size: 24px;
-        position: relative;
-        margin-top: 10px;
-        margin-left: 200px;
-        margin-bottom: 10px;
-        padding: 10px;
-    }
-
-    /* Work with Me Section */
-    .work-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .work-image img {
-        width: 80%;
-        max-height: auto;
-        margin-right: 200px;
-    }
-
-    .work-contact {
-        font-size: 18px;
-        color: black;
-        text-align: left;
-        margin-left: 50px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .work-contact b {
-        font-size: 20px;
-        margin-top: 5px;
-    }
+footer .footer-right a.email-link {
+    color: blue;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -539,45 +431,54 @@ footer a {
         height: auto;
     }
 
-    /* Signature */
-    .signature {
-        font-family: 'Allura', cursive;
-        font-size: 30px;
-        position: relative;
-        margin-top: 10px;
-        margin-left: 200px;
-        margin-bottom: 10px;
-        padding: 10px;
-    }
+        /* Signature */
+          .signature {
+              font-family: 'Allura', cursive;
+              font-size: 30px;
+              position: relative;
+              margin-top: 5px;
+              margin-left: 200px;
+              margin-bottom: 5px;
+              padding: 5px 0;
+          }
+    
+        /* Work with Me Section */
+Sure,
+based on your description,
+I understand that you want the content in a specific section to be styled in a certain way. Here's how you can achieve that using CSS:
 
-    /* Work with Me Section */
-    .work-content {
-        position: relative;
-        margin-inline: left;
-        vertical-align: baseline;
-        border: 0;
-        padding: 0;
-        margin: 0;
-    }
+css Copy code
 
-    .work-image img {
-        width: 100%;
-        max-height: auto;
-        margin: 0 auto;
-        position: relative;
-        margin-inline: left;
-    }
+/* Work with Me Section */
+.work-with-me {
+    text-align: center;
+}
 
-    .work-contact {
-        position: relative;
-        margin-inline: left;
-        font-size: 20px;
-        line-height: .98em;
-        letter-spacing: -.02em;
-        text-align: left;
-    }
+.work-with-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    display: inline-block;
+}
 
-    .work-contact b {
-        font-size: 20px;
-    }
+.work-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.work-address {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.work-address p {
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 300px;
+    line-height: 1.5;
 }
