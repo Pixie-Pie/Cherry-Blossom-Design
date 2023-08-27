@@ -32,7 +32,7 @@ li {
     color: white;
 }
 
-/* Welcome Section */
+/* Section One */
 .section-one {
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ li {
     flex-direction: column;
 }
 
-/* About Me Section */
+/* Section Three */
 .section-three {
     display: flex;
     justify-content: space-between;
@@ -134,7 +134,7 @@ li {
     position: absolute;
 }
 
-/* My Work Section */
+/* Section Four */
 .section-four {
     background-color: #E6E5E1;
     font-family: Garamond serif;
@@ -175,7 +175,7 @@ li {
     margin-top: 10px;
 }
 
-/* Work with Me Section */
+/* Section Five */
 .section-five {
     background-color: #FFFFFF;
     font-family: Arial, sans-serif;
