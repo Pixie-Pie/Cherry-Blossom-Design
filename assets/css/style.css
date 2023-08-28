@@ -12,29 +12,49 @@ li {
 
 /* Navbar */
 .navbar {
-    background-color: #473C38;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 2px solid #473C38;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+  background-color: #473C38;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid #473C38;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .nav-logo {
- font-size: 28px;
-text-decoration: none;
- color: white;
- border: #DADDDE;
- border-style: double;
- padding: 5px;
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+  border: #DADDDE;
+  border-style: double;
+  padding: 5px;
+  align
+}
 
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
 
+.nav-links li {
+  margin-right: 5em;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #DADDDE;
 }
 
 /* Section One */
