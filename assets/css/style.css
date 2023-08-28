@@ -27,9 +27,14 @@ li {
 }
 
 .nav-logo {
-    font-size: 28px;
-    text-decoration: none;
-    color: white;
+ font-size: 28px;
+text-decoration: none;
+ color: white;
+ border: #DADDDE;
+ border-style: double;
+ padding: 5px;
+
+
 }
 
 /* Section One */
@@ -38,10 +43,9 @@ li {
     justify-content: center;
     align-items: center;
     margin: 40px 0;
-    background-color: white;
 }
 
-.welcome-image {
+.section-one-image {
     max-width: 30%;
     height: auto;
 }
@@ -64,7 +68,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     background-color: #DADDDE;
 }
 
@@ -76,11 +80,12 @@ li {
 
 .section-two-content h2 {
     font-size: 60px;
-    margin: 0;
+    margin: 20px;
 }
 
 .section-two-content p {
     font-size: 30px;
+    margin: 20px
 }
 
 .section-two-image {
@@ -206,9 +211,9 @@ li {
 
 .section-five-content {
     display: flex;
+    justify-content: space-evenly;
     font-family: Arial, sans-serif;
     flex-direction: row;
-    align-items: center;
     color: black;
     margin-top: 20px;
 }
@@ -220,7 +225,7 @@ li {
 .section-five-image {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 30px 0;
 }
 
