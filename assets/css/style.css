@@ -84,11 +84,49 @@ li {
   font-family: Arial, sans-serif;
   font-size: 36px;
   font-weight: bold;
-  color: #514644;
+  color: black;
   margin-left: 20px;
 }
+/* Section Two */
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
+.section-two-content {
+  display: flex;
+  max-width: 80%;
+}
 
+.section-two-content .left-column {
+  flex: 1;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+  padding-left: 5em;
+  padding-top: 3em;
+}
+
+.section-two-content .right-column {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.section-two-content .right-column img {
+  max-width: 30em;
+  padding-right: 15em;
+}
+
+.section-two-image {
+  width: 15em;
+}
 
 /* Section Three */
 
