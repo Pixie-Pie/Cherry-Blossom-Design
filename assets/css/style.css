@@ -181,118 +181,90 @@ text-decoration: none;
 }
 
 /* Section Five */
-.section-five {
-    background-color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    color: black;
-    padding: 50px 0;
-    text-align: left;
-}
-
-.section-five-heading {
-    padding: 10px 0;
-    margin-left: 30px;
-    font-size: 36px;
-    font-family: Arial, sans-serif;
-    color: black;
-    margin-top: -20px;
-    position: relative;
-}
-
-.section-five-heading::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: black;
-}
-
 .section-five-content {
-    display: flex;
-    justify-content: space-evenly;
-    font-family: Arial, sans-serif;
-    flex-direction: row;
-    color: black;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: row;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20em;
 }
 
 .section-five-image img {
-    width: 20%;
+  width: 30em;
+  padding-bottom: 20px;
 }
 
 .section-five-image {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /
+  justify-content: space-between;
+}
+.section-five-image:hover img {
+  transform: scale(1.4);
 }
 
 .section-five-details {
-    flex: 2;
-    padding: 7em;
-    font-size: 18px;
-    color: black;
-    text-align: left;
-}
-
-.section-five-details b {
-    font-size: 20px;
-    margin: 0 0 18px 0;
-    color: black;
+  flex: 2;
+  padding-right: 40em;
+  padding-left: 10em;
+  padding-top: 5em;
+  font-size: 18px;
+  color: black;
+  text-align: left;
 }
 
 /* Footer */
 footer {
-    background-color: #DADDDE;
-    font-family: Arial;
-    color: black;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
+  background-color: #DADDDE;
+  font-family: Arial;
+  color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 footer a {
-    color: #000000;
-    text-decoration: none;
-    margin: 5px;
+  color: #000000;
+  text-decoration: none;
+  margin: 5px;
 }
 
 footer .footer-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 footer .footer-icons a {
-    margin: 5px;
+  margin: 5px;
 }
 
 footer .footer-left,
 footer .footer-right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 footer .footer-left .phone-number {
-    font-weight: bold;
-    margin-right: 5px;
+  font-weight: bold;
+  margin-right: 5px;
 }
 
 footer .footer-right .fa-whatsapp {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 footer .footer-right a.email-link {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
-
