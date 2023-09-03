@@ -116,20 +116,32 @@
         </div>
     </div>
 </section>
-    <!-- Section Five -->
-    <section id="section-five" class="section-five">
-        <h2 class="section-five-heading">Contact me</h2>
-        <div class="section-five-content">
-            <div class="section-five-image">
-                <img alt="Grid Pictures" src="assets/images/grid.jpg">
-            </div>
-            <div class="section-five-details">
-                <p><b>ADDRESS:</b> 321 Vine Ave, Santa Barbara, CA 93101, USA</p>
-                <p><b>EMAIL:</b> design@cherryblossom.com</p>
-                <p><b>PHONE:</b> 611-750-4677</p>
-            </div>
+<!-- Contact Form -->
+<form action="#" id="contact-form" method="post" name="contact-form">
+    <label for="name">Name:</label> <input id="name" name="name" required="" type="text"> <label for="email">Email:</label> <input id="email" name="email" required="" type="email"> <label for="message">Message:</label> 
+    <textarea id="message" name="message" required="" rows="4"></textarea> <label for="contact-method">Contact Method:</label> <select id="contact-method" name="contact-method" required="">
+        <option value="email">
+            Email
+        </option>
+        <option value="phone">
+            Phone
+        </option>
+        <option value="none">
+            No Preference
+        </option>
+    </select> <button type="submit">Send</button>
+</form>
+<!-- Section Five -->
+<section class="section-five" id="section-five">
+    <h2 class="section-five-heading">Contact me</h2>
+    <div class="section-five-content">
+        <div class="section-five-details">
+            <p><b>ADDRESS:</b> 321 Vine Ave, Santa Barbara, CA 93101, USA</p>
+            <p><b>EMAIL:</b> design@cherryblossom.com</p>
+            <p><b>PHONE:</b> 611-750-4677</p>
         </div>
-    </section>
+    </div>
+</section>
 <!-- Footer -->
     <footer>
         <div class="footer-left">
