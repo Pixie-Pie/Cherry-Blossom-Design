@@ -305,6 +305,54 @@ footer a {
 	color: blue;
 	text-decoration: none;
 }
+
+/* Thanks Header */
+.thanks-header {
+    background-image: url('assets/images/thanksbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 10px 0; 
+    color: white; 
+
+}
+.thanks-header a {
+    color: black;
+    text-decoration: none; /
+}
+
+.thanks-header a:hover {
+    color:black
+}
+
+.thanks-header a:visited {
+    color:black;
+}
+
+.thanks-header h1,
+.thanks-header h2,
+.thanks-header p {
+    color: black; 
+}
+
+
+.h2-thanks {
+    font-size: 36px;
+    margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+.p-thanks {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-interior-images {
+    max-width: 35%;
+    height: auto;
+}
+
 /* Media Query for Small Screens */
 
 @media (max-width: 768px) {
