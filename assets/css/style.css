@@ -150,6 +150,7 @@ body, h1, h2, h3, p {
 	text-align: center;
 	font-weight: bolder;
 }
+
 /* Section Four */
 
 .section-four {
@@ -169,11 +170,14 @@ body, h1, h2, h3, p {
 .section-four-image img {
 	width: 100%;
 	height: auto;
+	max-height: 30em;
+	object-fit: cover;
 }
 .image-description {
 	font-weight: bold;
 	margin-top: 10px;
 }
+
 /* Section Five */
 
 .section-five {
