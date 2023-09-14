@@ -408,7 +408,7 @@ footer a {
 
     .hero-section-image img {
         max-width: 100%;
-        height: auto;
+        height:fit-content;
         padding-top: 15px;
     }
 
@@ -435,7 +435,7 @@ footer a {
 
 .right-column img {
 	max-width: 100%;
-	height: auto;
+	height: fit-content;
 	padding-top: 10px; 
 }
 
@@ -468,6 +468,7 @@ footer a {
 
     .about-me-section-image {
         max-width: 100%;
+        height: fit-content;
     }
 
     .image-wrapper img {
@@ -476,7 +477,7 @@ footer a {
 
     .signature {
         font-family: 'Allura', cursive;
-        font-size: 30px;
+        font-size: 25px;
         color: #6B1C02;
         text-align: center;
     }
@@ -499,7 +500,7 @@ footer a {
 
     .gallery-section-image img {
         max-width: 100%;
-        height: auto;
+        height:fit-content;
     }
 
     .image-description {
