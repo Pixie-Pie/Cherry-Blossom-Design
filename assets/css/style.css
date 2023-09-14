@@ -353,7 +353,7 @@ footer a {
     max-width: 20em;
 }
 
-/* Media Query for Small Screens */
+/* Media Query */
 @media (max-width: 768px) {
     /* Navbar */
     .navbar {
