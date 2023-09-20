@@ -24,6 +24,7 @@ body, h1, h2, h3, p {
 	padding: 5px;
 	margin-right: 0;
 	margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
 }
 .navbar .nav-links {
 	list-style: none;
@@ -31,7 +32,7 @@ body, h1, h2, h3, p {
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 10px;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 .navbar .nav-links li {
 	margin: 0 10px;
@@ -319,11 +320,13 @@ footer a {
     text-align: center;
     font-size: 30px;
     color: white;
+    margin-top: 10px;
 }
 
 .thanks-header a {
     color: black;
     text-decoration: none;
+    
 }
 
 .thanks-header a:hover {
@@ -341,7 +344,7 @@ footer a {
 .h2-thanks {
     font-size: 28px;
     margin-bottom: 5px;
-    padding-top: 2em;
+    padding-top: 10px;
 }
 
 .p-thanks {

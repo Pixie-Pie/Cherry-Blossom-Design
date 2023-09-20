@@ -16,9 +16,18 @@ The website is presented in a minimalistic and effective manner, offering all es
 ![Nav Bar](docs/nav-bar.jpg)
 
 ### Colour Scheme
-- `#FFFFFF` (white) was consistently used throughout the website. It served as the font colour for the navigation bar, as well as the background colour for the hero section, about me section, and contact section of the website. Additionally, it was utilized as the background colour for the 'thank you' page that appears after submitting your information via the form.
+- `#FFFFFF` was consistently used throughout the website. It served as the font colour for the navigation bar, as well as the background colour for the hero section, about me section, and contact section of the website. Additionally, it was utilized as the background colour for the 'thank you' page that appears after submitting your information via the form.
 - `#473C38` was used as the font colour below the hero image and as the colour of the navigation bar.
 - `#DADDDE` was used as the background color for both welcome section  and the footer.
 - `#000000` was the main font colour used across the different sections of the website, and it was also the colour of the icons in the footer.
 - `#E6E5E1` was used as the background colour for the gallery section. 
 - `#6B1C02`was used a the colour of the signature under the picture of Cherry Blossom. 
+![Colour palette](<docs/Colour Palette.png>)
+  I used [canva.com](https://canva.com) to help me with the colour palette.
+
+### Fonts
+I used Google Fonts across two sections of the webste. 
+- [Allura](https://fonts.google.com/specimen/Allura?query=allura) was used for Cherry Blossom’s signature.
+- [Dosis](https://fonts.google.com/specimen/Dosis?query=Dosis&preview.size=18) was used for the nav bar logo. 
+
+### Structure 
