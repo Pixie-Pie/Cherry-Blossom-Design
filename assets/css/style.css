@@ -312,7 +312,7 @@ footer a {
 
 /* Thanks Header */
 .thanks-header {
-    background-image: url('assets/images/thanksbackground.jpg');
+    background-image: url('assets/images/thanks-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
