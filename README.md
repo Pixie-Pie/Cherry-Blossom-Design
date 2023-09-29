@@ -35,13 +35,22 @@ Font Awesome was used for the icons on the footer.
 - [Instagram logo](https://fontawesome.com/icons/square-instagram?f=brands&s=solid)
 - [WhatsApp logo](https://fontawesome.com/icons/whatsapp?f=brands&s=solid)
 - [Email logo](https://fontawesome.com/icons/envelope?f=classic&s=solid)
+
 ### Structure 
-- **Header** - The logo is positioned in the center, with the navigation bar directly below it. Clicking the logo takes you to the top of the page, while each navigation section brings you to the desired section of the web page. The navigation bar appears on every page.
-- **Home page**
-- *Hero Image* - appears centered at the top of the page, with a heading underneath it.
-- *Inspiration* - This section features an inspirational quote with an image of a kitchen and living room interior design placed horizontally to the right of the text.
-- *About me* - This section is centered vertically and includes a brief history of Cherry Blossom, outlining her education, discussing her work, listing her awards, and featuring a quote. Beneath the text, there is an image of Cherry Blossom, and underneath the picture, her signature is displayed in a cursive font.
-- *View my work* - This is the gallery section that displays a grid with two pictures per row, totaling three grids. Each picture in the grid includes the name of the project, the year it was designed, and the client's budget.
-- *Contact me* This is the contact section where you can input your information, including your Name, Email, and Message, into a form. Submitting the form takes you to another page. Below the form horizontally, you can find the office's address information.
-- **Footer**
-- The footer contains social media links, which are present on every page. These links are accompanied by clickable icons that lead directly to the web versions of their respective social media platforms.
+**Header** 
+- Logo - Positioned in the center, with the navigation bar directly below it. Clicking the logo takes you to the top of the page, while each navigation section brings you to the desired section of the web page. The navigation bar appears on every page.
+
+**Home page**
+- Hero Image - Appears centered at the top of the page, with a heading underneath it.
+- Inspiration - This section features an inspirational quote with an image of a kitchen and living room interior design placed horizontally to the right of the text.
+- About me - This section is centered vertically and includes a brief history of Cherry Blossom, outlining her education, discussing her work, listing her awards, and featuring a quote. Beneath the text, there is an image of Cherry Blossom, and underneath the picture, her signature is displayed in a cursive font.
+- View my work - This is the gallery section that displays a grid with two pictures per row, totaling three grids. Each picture in the grid includes the name of the project, the year it was designed, and the client's budget.
+- Contact me - This is the contact section where you can input your information, including your Name, Email, and Message, into a form. Submitting the form takes you to another page. Below the form horizontally, you can find the office's address information.
+
+**Footer**
+- Footer - contains social media links, which are present on every page. These links are accompanied by clickable icons that lead directly to the web versions of their respective social media platforms.
+
+## Wireframes 
+[Balsamiq]( https://balsamiq.com/wireframes/) was used to create the wireframes. 
+
+[Placeholder for wireframes]
