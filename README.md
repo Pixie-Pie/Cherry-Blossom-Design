@@ -99,7 +99,10 @@ Font Awesome was used for the icons on the footer.
 
 
 ## Testing:
-[Placeholder for testing]
+- During the testing stages, accessibility issues were identified related to the icons in the footer. The initial problem was the absence of ARIA attributes for the icons in the footer.
+![Lighthouse score first attempt](docs/lighthouse-v1.JPG)
+
+
 
 ## Technology used:
 - **HTML:** Used for the codebase of both the index and thank you pages.
