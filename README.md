@@ -50,7 +50,24 @@ Font Awesome was used for the icons on the footer.
 **Footer**
 - Footer - contains social media links, which are present on every page. These links are accompanied by clickable icons that lead directly to the web versions of their respective social media platforms.
 
+### User Stories 
+#### New user stories
+- As a homeowner, I want to use the contact form to collaborate with an interior designer to transform my living room into a cozy and modern space where my family can relax and entertain guests.
+- As a business owner, I want to look at the previous work of this interior designer to see if she  created a functional and modern office in the past.
+- As a real estate developer, I require an interior designer to stage and decorate model homes to make them more appealing to potential buyers. I want to find out where this interior designer is based in Santa Barbara. 
+- As a newlywed couple, we are contemplating the idea of redecorating our home but are uncertain about proceeding with this project. We seek inspiration to help us determine whether we want to move forward.
+
+
 ## Wireframes 
 [Balsamiq]( https://balsamiq.com/wireframes/) was used to create the wireframes. 
 
 [Placeholder for wireframes]
+
+### Features
+**Responsive Navigation Bar**
+
+- 'Logo' in the middle of the navigation bar is clickable. It appears on every page and brings you back to the top of the main page each time you click it.
+- When you press the 'About Me' button, you are taken down to the 'About Me' section of the page. 
+- When you click on 'Gallery,' you are taken to the 'Gallery' Section, which consists of a 2x3 grid containing multiple pictures of interior designs.
+- Clicking 'Contact Me' takes you to the 'Contact Me' section at the bottom of the page. There, you can either fill out a contact form or use Cherry Blossom's displayed contact details.
+![Navigation Bar](assets/images/nav-bar.JPG)
