@@ -80,7 +80,7 @@ Font Awesome was used for the icons on the footer.
 - Clicking 'Contact Me' takes you to the 'Contact Me' section at the bottom of the page. There, you can either fill out a contact form or use Cherry Blossom's displayed contact details.
 ![Navigation Bar](docs/nav-bar.JPG)
 
-**'Contact Me' section**
+**Responsive form**
 
 - This project features a Contact page with an interactive form that allows users to provide their name, email address, and a message. However, it's important to note that this project does not include a server to store user data. Instead of a traditional "send" action, when users submit the form, it redirects them to the 'Thank you' page displaying a thank-you message.
 - Users are required to accurately fill out all section boxes. Any discrepancies or insufficiencies in the provided information will prompt an alteration. For instance, if a user fails to include the "@" symbol in their email address, the form will generate a notification informing the user about the missing "@" symbol.
@@ -88,10 +88,15 @@ Font Awesome was used for the icons on the footer.
 ![Form alter for no message](docs/no-message.jpg)
 ![Form alter no username](docs/no-username.jpg)
 
-**'Thank You' page**
+**Action from the form**
 
 ![Thank you page](assets/images/thank-you-page.jpg)
 - When the user inputs information into all the section boxes and presses the 'Send' button, they will be automatically redirected to the 'Thank You' page, which opens in the same tab.
+
+**Responsive Footer**
+- The footer contains icons that link to various websites: the Instagram icon directs you to https://www.instagram.com/, the phone icon takes you to https://api.whatsapp.com/send?phone=6117504677, and the email icon opens your preferred email application.
+![Footer](docs/footer.JPG)
+
 
 ## Testing:
 [Placeholder for testing]
