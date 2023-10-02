@@ -87,7 +87,7 @@ Font Awesome was used for the icons on the footer.
 ![Form alter for no message](assets/images/no-message.jpg)
 ![Form alter for no username](assets/images/no-username.jpg)
 
-- **'Thank You' page**
+**'Thank You' page**
 
 ![Thank you page](assets/images/thank-you-page.jpg)
 - When the user inputs information into all the section boxes and presses the 'Send' button, they will be automatically redirected to the 'Thank You' page, which opens in the same tab.
@@ -98,7 +98,7 @@ Font Awesome was used for the icons on the footer.
 ## Technology used:
 - **HTML:** Used for the codebase of both the index and thank you pages.
 - **CSS:** Utilized for styling on both the index and thank you pages, with additional use of Flexbox and Grid resources.
-- GitHub: Used for version control and code storage.
+- **GitHub:** Used for version control and code storage.
 - **GitHub Pages:** Deployed the website to GitHub Pages for hosting.
 - **Gitpod:** Used as the integrated development environment (IDE) for development.
-- **Canva:** Employed for creating and editing images and establishing the color palette.
+- **Canva:** Was used for creating and editing images and establishing the colour palette.
