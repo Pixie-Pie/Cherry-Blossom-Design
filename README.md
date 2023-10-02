@@ -71,3 +71,15 @@ Font Awesome was used for the icons on the footer.
 - When you click on 'Gallery,' you are taken to the 'Gallery' Section, which consists of a 2x3 grid containing multiple pictures of interior designs.
 - Clicking 'Contact Me' takes you to the 'Contact Me' section at the bottom of the page. There, you can either fill out a contact form or use Cherry Blossom's displayed contact details.
 ![Navigation Bar](assets/images/nav-bar.JPG)
+
+
+**'Contact Me' section**
+
+- This project features a Contact page with an interactive form that allows users to provide their name, email address, and a message. However, it's important to note that this project does not include a server to store user data. Instead of a traditional "send" action, when users submit the form, it redirects them to the 'Thank you' page displaying a thank-you message.
+- Users are required to accurately fill out all section boxes. Any discrepancies or insufficiencies in the provided information will prompt an alteration. For instance, if a user fails to include the "@" symbol in their email address, the form will generate a notification informing the user about the missing "@" symbol.
+![Form alter for no email](assets/images/no-email.jpg)
+![Form alter for no message](assets/images/no-message.jpg)
+![Form alter for no username](assets/images/no-username.jpg)
+
+**'Thank you' page**
+![Thank you page](assets/images/thank-you-page.jpg)
