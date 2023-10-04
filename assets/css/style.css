@@ -152,19 +152,19 @@ body, h1, h2, h3, p {
     color: #6B1C02;
     text-align: center;
     font-weight: bolder;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Gallery */
 .gallery-section {
 	text-align: center;
 	background-color: #E6E5E1;
-	padding: 10px;
-	padding: 10px;
+	padding: 15px;
 }
 
 .gallery-section h2 {
     font-size: 30px;
+    padding-bottom: 10px;
 }
 
 .gallery-section-images {
