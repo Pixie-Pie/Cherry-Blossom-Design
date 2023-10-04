@@ -1,6 +1,7 @@
 # Cherry Blossom Design 
-![Media Responsivness](docs/media-responsive.jpg)
+
 [You can view the live page here!]( https://pixie-pie.github.io/Cherry-Blossom-Design/)
+![Media Responsiveness](docs/media-responsiveness.JPG)
 
 ## Purpose of Cherry Blossom Design:
 I created this website because I am extremely interested in interior design, blueprints, and architecture. The purpose of this website is as follows: This website was created to showcase the work of a fictional interior designer named Cherry Blossom, who resides in Santa Barbara, California, USA. The primary goal of this website is to display her most significant interior design projects, attracting a new client base, promoting her work, and introducing her to potential clients. 
@@ -22,7 +23,7 @@ The website is presented in a minimalistic and effective manner, offering all es
 - `#000000` was the main font colour used across the different sections of the website, and it was also the colour of the icons in the footer.
 - `#E6E5E1` was used as the background colour for the gallery section. 
 - `#6B1C02`was used a the colour of the signature under the picture of Cherry Blossom. 
-![Colour palette](<docs/Colour Palette.png>)
+![Colour palette](<docs/colour-palette.png>)
   I used [canva.com](https://canva.com) to help me with the colour palette.
 
 ### Fonts:
@@ -64,13 +65,13 @@ Font Awesome was used for the icons on the footer.
 - As a returning member, I want to access the contact details for the interior designer's office so that I can refer my friends and family to their services with ease.
 
 ## Wireframes:
-[Balsamiq]( https://balsamiq.com/wireframes/) was used to create the wireframes. 
+[Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes. 
 
 - **Wireframe for main page**
 ![Wireframe for website](docs/wireframes.png)
 
 - **Wireframe for 'Thank you' page**
-![Wireframe for Thank you page](docs/wireframes.png)
+![Wireframe for 'Thank you' page](docs/wireframes.png)
 
 ## Features:
 **Responsive Navigation Bar**
@@ -90,7 +91,7 @@ Font Awesome was used for the icons on the footer.
 
 **Action from the form**
 
-![Thank you page](assets/images/thank-you-page.jpg)
+!['Thank you' page](assets/images/thank-you-page.jpg)
 - When the user inputs information into all the section boxes and presses the 'Send' button, they will be automatically redirected to the 'Thank You' page, which opens in the same tab.
 
 **Responsive Footer**
@@ -99,40 +100,61 @@ Font Awesome was used for the icons on the footer.
 
 
 ## Testing:
-**I used the W3C CSS Validation service [link] to validate my CSS code, and no errors were found.**
+**I used the [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/) to validate my CSS code, and no errors were found.**
 
-[Place holder for image]
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
-**For my HTML, I utilized the W3C Markup Validation Service [link], and no errors were detected.**
+**For my HTML, I utilized the [W3C Markup Validation Service](https://validator.w3.org/), and no errors were detected.**
 
-[Place holder for image]
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 **However, during the Lighthouse testing stage, I encountered errors related to performance and accessibility:**
 
 -	The image sizes were initially too large and lacked a height property. I reduced the pixel dimensions; however, there were still errors due to the width and height properties causing delayed responses.
 
-[Place holder for image]
+![Lighthouse-testing](docs/lighthouse-v1.JPG)
 
--	To address this issue, I used redketchup.io/image-resizer to adjust the width and height of the pictures, which resolved the problem.
+-	To address this issue, I used [RedKetchup](redketchup.io/image-resizer) to adjust the width and height of the pictures, which improved the performance but it lowered the accessibility.
 
-[Place holder for image]
+![Lighthouse-testing-v2](docs/lighthouse-v2.JPG)
 
--	There was also an issue with the "aria-label" attribute, as it did not match the Font Awesome properties. I made the necessary corrections, resulting in improved overall performance and accessibility scores.
+-	There was also an issue with the "aria-label" attribute, as it did not match the Font Awesome properties. I made the necessary corrections, resulting in improved overall accessibility score.
 
-[Place holder for image]
+![Lighthouse-testing-v3](docs/lighthouse-v3.JPG)
 
--	Despite these improvements, there is still a performance issue related to image rendering delay. According to Lighthouse feedback, further improvements should be made to the JavaScript, but I have not reached this stage in my learning yet.
+-	The image files were resized again, and CSS max-width and max-height were adjusted. I used Google to find out the ideal size for images to be added to the website so that they don't affect performance and accessibility. The overall score was 100% across all Lighthouse scores.
 
-[Place holder for image]
+![Lighthouse-final-score](docs/lighthouse-final.JPG)
 
 
 
 
 
 ## Technology used:
-- **HTML:** Used for the codebase of both the index and thank you pages.
-- **CSS:** Utilized for styling on both the index and thank you pages, with additional use of Flexbox and Grid resources.
+- **HTML:** Used for the codebase of both the index and 'thank you' pages.
+- **CSS:** Utilized for styling on both the index and 'thank you' pages, with additional use of Flexbox and Grid resources.
 - **GitHub:** Used for version control and code storage.
 - **GitHub Pages:** Deployed the website to GitHub Pages for hosting.
 - **Gitpod:** Used as the integrated development environment (IDE) for development.
 - **Canva:** Was used for creating and editing images and establishing the colour palette.
+- **Red Ketchup** Was used to resize all the images on my website. 
+
+## Acknowledgements
+-  I would like to express my thanks and gratitude to the entire [Code Institute](https://codeinstitute.net/ie/) team for providing additional assistance when needed and for their understanding of my circumstances.
+- I would like to thank my mentor [David Bowers](https://github.com/dnlbowers) for constant support, words of encouragement, and all the assistance he provided to me during this project.
+- [Jonathan Zakrisson](https://github.com/Jonathan97-web) for the countless hours of study and support, and the encouragement to never give up.
+- [Craig Hudson](https://github.com/Craig-Hudson) for always answering any questions I had regarding this project.
+- I would like to thank [Harry Dhillon](https://github.com/Harry-Leepz), who has been a massive support throughout my journey at Code Institute.
+- Finally, I would like to thank my partner Stephen and my whole family who have supported me, encouraged me, and for picking up my day-to-day schedule when I needed to work countless hours to get this project done on time.
