@@ -99,8 +99,33 @@ Font Awesome was used for the icons on the footer.
 
 
 ## Testing:
-- During the testing stages, accessibility issues were identified related to the icons in the footer. The initial problem was the absence of ARIA attributes for the icons in the footer.
-![Lighthouse score first attempt](docs/lighthouse-v1.JPG)
+**I used the W3C CSS Validation service [link] to validate my CSS code, and no errors were found.**
+
+[Place holder for image]
+
+**For my HTML, I utilized the W3C Markup Validation Service [link], and no errors were detected.**
+
+[Place holder for image]
+
+**However, during the Lighthouse testing stage, I encountered errors related to performance and accessibility:**
+
+-	The image sizes were initially too large and lacked a height property. I reduced the pixel dimensions; however, there were still errors due to the width and height properties causing delayed responses.
+
+[Place holder for image]
+
+-	To address this issue, I used redketchup.io/image-resizer to adjust the width and height of the pictures, which resolved the problem.
+
+[Place holder for image]
+
+-	There was also an issue with the "aria-label" attribute, as it did not match the Font Awesome properties. I made the necessary corrections, resulting in improved overall performance and accessibility scores.
+
+[Place holder for image]
+
+-	Despite these improvements, there is still a performance issue related to image rendering delay. According to Lighthouse feedback, further improvements should be made to the JavaScript, but I have not reached this stage in my learning yet.
+
+[Place holder for image]
+
+
 
 
 
