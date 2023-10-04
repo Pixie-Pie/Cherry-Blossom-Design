@@ -73,6 +73,19 @@ Font Awesome was used for the icons on the footer.
 - **Wireframe for 'Thank you' page**
 ![Wireframe for 'Thank you' page](docs/wireframes.png)
 
+## Media Responsiveness:
+### iPad
+
+![iPad-view-v1](docs/ipad-v1.jpg)
+![iPad-view-v2](docs/ipad-v2.jpg)
+![iPad-view-v3](docs/ipad-v3.jpg)
+![iPad-view-v4](docs/ipad-v4.jpg)
+
+### iPhone
+![iPhone-view-v1](docs/iphone-v1.jpg)
+![iPhone-view-v2](docs/iphone-v2.jpg)
+![iPhone-view-v3](docs/iphone-v3.jpg)
+
 ## Features:
 **Responsive Navigation Bar**
 - The navigation bar is visible on both the main page and the 'Thank You' page. However, clicking the logo on the main page scrolls to the top but in the 'Thank You' page it returns you to the main page.
@@ -97,7 +110,6 @@ Font Awesome was used for the icons on the footer.
 **Responsive Footer**
 - The footer contains icons that link to various websites: the Instagram icon directs you to https://www.instagram.com/, the phone icon takes you to https://api.whatsapp.com/send?phone=6117504677, and the email icon opens your preferred email application.
 ![Footer](docs/footer.JPG)
-
 
 ## Testing:
 **I used the [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/) to validate my CSS code, and no errors were found.**
@@ -137,10 +149,6 @@ Font Awesome was used for the icons on the footer.
 -	The image files were resized again, and CSS max-width and max-height were adjusted. I used Google to find out the ideal size for images to be added to the website so that they don't affect performance and accessibility. The overall score was 100% across all Lighthouse scores.
 
 ![Lighthouse-final-score](docs/lighthouse-final.JPG)
-
-
-
-
 
 ## Technology used:
 - **HTML:** Used for the codebase of both the index and 'thank you' pages.
